@@ -7,4 +7,6 @@
     <string name="boton">Next</string>
     <string name="error">Field cant be empty</string>
     <string name="veinte">When you have entered the 20 digits, they will appear ordered</string>
+    <string name="reset">Reset</string>
+    <string name="reset1">Restarted values</string>
 </resources>

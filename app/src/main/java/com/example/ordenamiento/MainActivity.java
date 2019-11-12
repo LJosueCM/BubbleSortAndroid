@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     ImageView btnNext;
     TextView tvVeinte;
     TextView tvOrdenados;
+    ImageView btnReset;
 
     public int contador=20;
 
@@ -38,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         btnNext = findViewById(R.id.btnNext);
         tvVeinte = findViewById(R.id.tvVeinte);
         tvOrdenados = findViewById(R.id.tvOrdenados);
+        btnReset = findViewById(R.id.btnReset);
 
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,12 +56,26 @@ public class MainActivity extends AppCompatActivity {
                     if (contador == 0) {
                        BubbleSort();
                        tvOrdenados.setText(""+ordenados);
+                       contador=20;
+                       numeros = new ArrayList<>();
+                       ordenados = new ArrayList();
                     }
                 }
             }
         });
+
+        btnReset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                contador=20;
+                numeros = new ArrayList<>();
+                ordenados = new ArrayList();
+                Toast.makeText(MainActivity.this,getResources().getString(R.string.reset1), Toast.LENGTH_LONG).show();
+            }
+        });
     }
 
+    //El algoritmo de ordenamiento elegido es BubbleSort
     public void BubbleSort() {
         Integer[] array = new Integer[numeros.size()];
         numeros.toArray(array);

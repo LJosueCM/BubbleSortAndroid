@@ -6,4 +6,6 @@
     <string name="boton">Siguiente</string>
     <string name="error">Este campo no puede estar vacío</string>
     <string name="veinte">Cuando hayas ingresado los 20 digitos, aparecerán ordenados</string>
+    <string name="reset">Reiniciar</string>
+    <string name="reset1">Valores reiniciados</string>
 </resources>

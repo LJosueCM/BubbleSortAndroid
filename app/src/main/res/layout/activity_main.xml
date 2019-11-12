@@ -21,10 +21,10 @@
 
     <ImageView
         android:id="@+id/btnNext"
-        android:layout_width="205dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="159dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/etNumero"
         app:srcCompat="@drawable/boton" />
@@ -69,14 +69,14 @@
         android:id="@+id/tvVeinte"
         android:layout_width="326dp"
         android:layout_height="68dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:gravity="center"
         android:text="@string/veinte"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnNext" />
+        app:layout_constraintTop_toBottomOf="@+id/btnReset" />
 
     <TextView
         android:id="@+id/tvOrdenados"
@@ -89,5 +89,29 @@
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvVeinte" />
+
+    <ImageView
+        android:id="@+id/btnReset"
+        android:layout_width="159dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btnNext"
+        app:layout_constraintTop_toBottomOf="@+id/etNumero"
+        app:srcCompat="@drawable/boton" />
+
+    <TextView
+        android:id="@+id/tvReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reset"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnReset"
+        app:layout_constraintEnd_toEndOf="@+id/btnReset"
+        app:layout_constraintStart_toStartOf="@+id/btnReset"
+        app:layout_constraintTop_toTopOf="@+id/btnReset" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
