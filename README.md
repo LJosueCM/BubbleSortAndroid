@@ -1,5 +1,4 @@
 # BubbleSortAndroid
-Aplicación para Android que ordena 20 dígitos del usuario por BubbleSort
 
 El ejercicio consistirá en lo siguiente:
 
@@ -15,3 +14,5 @@ Restricciones
 Extras
 - Se realizó un botón con Adobe Illustrator a fin de darle una mejor estética al programa, en lugar de usar un botón genérico.
 - Para mostrarle al usuario los números ordenados, se ha decidido colocarlos en un textView en pantalla una vez que se hayan ingresado los 20 dígitos.
+- Se añadió un botón de Reset para que el usuario, si se equivocó al ingresar un dígito, pueda volver a empezar.
+- Cada que el usuario registra un nuevo número, un Toast le informa cómo va la lista que está creando.
