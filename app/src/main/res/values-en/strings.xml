@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sorting</string>
+    <string name="titulo">Sorting</string>
+    <string name="instrucciones">Enter a maximum number of four digits and press the Next button</string>
+    <string name="insert">Enter a number</string>
+    <string name="boton">Next</string>
+    <string name="error">Field cant be empty</string>
+    <string name="veinte">When you have entered the 20 digits, they will appear ordered</string>
+</resources>

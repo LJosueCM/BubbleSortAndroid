@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ordenamiento</string>
+    <string name="titulo">Ordenamiento</string>
+    <string name="instrucciones">Ingresa un número de máximo cuatro dígitos y presiona el boton Siguiente</string>
+    <string name="insert">Ingresa un número</string>
+    <string name="boton">Siguiente</string>
+    <string name="error">Este campo no puede estar vacío</string>
+    <string name="veinte">Cuando hayas ingresado los 20 digitos, aparecerán ordenados</string>
+</resources>
